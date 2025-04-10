@@ -165,10 +165,10 @@ h2 {
 .project-card:hover {
     transform: translateY(-10px);
 }
-/* Education Section */
+/* Education Section 
 .education-section {
     background: #f9f9f9;
-}
+}*/
 
 .education-grid {
     display: grid;
