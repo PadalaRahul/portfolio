@@ -165,6 +165,34 @@ h2 {
 .project-card:hover {
     transform: translateY(-10px);
 }
+/* Education Section */
+.education-section {
+    background: #f9f9f9;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.education-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.education-card:hover {
+    transform: translateY(-10px);
+}
+
+.education-card h3 {
+    color: #667eea;
+    margin-bottom: 10px;
+}
 
 /* Certifications Section */
 .certifications-grid {
@@ -192,4 +220,13 @@ footer {
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
+}
+footer p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+}
+
+footer i {
+    margin-right: 8px;
+    color: #fff;
 }
